@@ -6,7 +6,7 @@ PlaceSignal puts ratings and reviews on a map, finds what drives them, and shows
 I built it on my own, end to end, to show how I take a business question from raw customer feedback to an answer
 a manager can act on.
 
-*Petr Shovoldaev · 12+ years in consumer and market insights · Paris*
+*Petr Shovoldaev · 12+ years in consumer and market insights · Paris · [LinkedIn](https://www.linkedin.com/in/pshovoldaev/)*
 
 [![Watch the 3-minute walkthrough](videos/posters/placesignal-overview.jpg)](videos/placesignal-overview.mp4)
 
@@ -87,5 +87,7 @@ Same app, same method, a different story in each. Each runs under two minutes.
 I've spent 12+ years in consumer and market insights. I like questions that start messy ("why are our ratings
 falling?") and end with something a team can act on. PlaceSignal is how I'd approach that today: clear questions,
 honest statistics, data used within its rights, and a tool people can use without a manual.
+
+**Let's talk:** [linkedin.com/in/pshovoldaev](https://www.linkedin.com/in/pshovoldaev/)
 
 *PlaceSignal is a personal project. It is not affiliated with any employer, and no employer data was used.*
