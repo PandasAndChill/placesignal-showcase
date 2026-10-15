@@ -56,6 +56,29 @@ Same app, same method, a different story in each. Each runs under two minutes.
 | Beauty salons | Running late costs the most stars; complaints about pressure to buy jumped at one chain after its new sales targets | [▶ beauty](videos/industry-beauty.mp4) |
 | Barbers | Haircut quality costs the most stars; online booking ended the walk-in queues at one chain, a price rise hurt another | [▶ barbers](videos/industry-barbers.mp4) |
 
+## AI that costs nothing to run
+
+- **An open-source model on a laptop does the reading.** Qwen 2.5 (7B), running locally through Ollama, read 5,972 real
+  reviews of Paris restaurants. No AI subscription, no per-review fees, and the text never left the machine.
+- **Measured, not assumed.** Against 200 reference-labelled reviews it finds **79% of complaints, against 46%** for a
+  hand-written rule set, with the same precision (65%). It also over-counts complaints about price and atmosphere about
+  2×, so the app lets the model *read* and keeps every number computed by code.
+- **It finds what nobody was tracking.** Asked what customers mention outside the standard topics, it surfaced heat and
+  missing air conditioning: rare, but when it comes up the rating drops from 4.6★ to 3.1★. Cheap to fix, invisible in a
+  fixed topic list.
+- **It writes the summary, and can't make numbers up.** A one-click summary for a manager, written by the local model.
+  Every number in it is checked against the data; an answer with an invented number is rejected.
+
+## Built to run inside a company
+
+- **Same setup, company infrastructure.** The app and the open-source model can run where the company's data already
+  lives: a data platform such as Snowflake (which can host containerised apps and run open-source models on its own
+  compute) or any internal server. Employees open a link and run their own analysis.
+- **No per-query AI bill.** There is no AI vendor charging per review or per question; the cost is the compute the
+  company already runs. Customer feedback stays inside the company's environment.
+- **Live, not quarterly.** A review takes the model a few seconds, so feedback the company owns (its own review profiles,
+  app-store reviews, survey and NPS verbatims, complaints) can be read and analysed as it arrives, not in a quarterly batch.
+
 ## Honest about the data
 
 - **Demo mode** uses made-up brands and generated reviews: 52 brands, 6,400 locations and 260,000 reviews in English,
@@ -75,10 +98,10 @@ Same app, same method, a different story in each. Each runs under two minutes.
 - **Statistics first, words second.** Every number is computed (rates with Wilson intervals, review-weighted averages with 95%
   intervals, a ranking that doesn't reward a handful of lucky reviews, Welch tests for regional gaps, step-change
   detection for "what changed when"). The sentences are written from those numbers and checked against them.
-- **Review analysis in five languages** with a transparent rule-based classifier. It is scored against labelled text and
-  reports per-topic bias, because a classifier with a good overall score can still badly undercount a topic.
-- **No servers, no paid services.** A static web app (React, TypeScript, MapLibre, ECharts) and a Python data pipeline.
-  Running cost: €0.
+- **Review analysis in five languages**, by a transparent rule set or by the local AI model. Both are scored against
+  labelled text, per topic, because a reader with a good overall score can still badly miscount a topic.
+- **No servers, no paid services.** A static web app (React, TypeScript, MapLibre, ECharts), a Python data pipeline and
+  an open-source model through Ollama. Running cost: €0.
 - **Tested.** Unit tests for every metric, an end-to-end test suite of the main journeys, and the videos themselves are
   recorded by scripts, so they can be re-made after any change.
 
