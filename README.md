@@ -60,12 +60,13 @@ Same app, same method, a different story in each. Each runs under two minutes.
 
 - **An open-source model on a laptop does the reading.** Qwen 2.5 (7B), running locally through Ollama, read 5,972 real
   reviews of Paris restaurants. No AI subscription, no per-review fees, and the text never left the machine.
-- **Measured, not assumed.** Against 200 reference-labelled reviews it finds **79% of complaints, against 46%** for a
+- **Measured, not assumed.** On a benchmark of 200 real reviews it finds **79% of complaints, against 46%** for a
   hand-written rule set, with the same precision (65%). It also over-counts complaints about price and atmosphere about
-  2×, so the app lets the model *read* and keeps every number computed by code.
+  2×, so the app lets the model *read* and keeps every number computed by code. (The benchmark labels were drafted by a
+  larger AI model and are being checked by hand; I report it as a first estimate, not a final score.)
 - **It finds what nobody was tracking.** Asked what customers mention outside the standard topics, it surfaced heat and
-  missing air conditioning: rare, but when it comes up the rating drops from 4.6★ to 3.1★. Cheap to fix, invisible in a
-  fixed topic list.
+  missing air conditioning: only 19 reviews, but when it comes up the rating drops from 4.6★ to 3.1★. A small sample,
+  so a lead to check rather than a conclusion, and one that is invisible in a fixed topic list.
 - **It writes the summary, and can't make numbers up.** A one-click summary for a manager, written by the local model.
   Every number in it is checked against the data; an answer with an invented number is rejected.
 
@@ -104,6 +105,21 @@ Same app, same method, a different story in each. Each runs under two minutes.
   an open-source model through Ollama. Running cost: €0.
 - **Tested.** Unit tests for every metric, an end-to-end test suite of the main journeys, and the videos themselves are
   recorded by scripts, so they can be re-made after any change.
+
+## Judgement calls
+
+The choices that shaped it, because the method matters more than the screens:
+
+- **Made-up data with planted stories.** Real reviews have no answer key. Planting known stories (a policy change, a
+  launch, a regional problem) is the only way to prove the analysis finds things without being told.
+- **The model reads, code counts.** The local model is better at spotting complaints but miscounts some topics, so it
+  never produces a number. Every figure is computed and every sentence is checked against it.
+- **Uncertainty is shown, not hidden.** Small samples are flagged and ranked conservatively, so a shop with three
+  five-star reviews doesn't top the league table.
+- **Data used within its rights.** No scraping; datasets with the wrong licence (e.g. academic-only) were rejected,
+  and the app refuses to export or publish anything a source doesn't allow.
+- **€0 by design.** A static site, open data and an open-source model, so the whole thing runs without a budget line,
+  and could run inside a company without a new vendor.
 
 ## About me
 
