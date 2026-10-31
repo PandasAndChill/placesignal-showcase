@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlaceSignal — videos</title>
+<meta name="description" content="PlaceSignal: where customers are happy, where they aren't, and why. Short walkthrough videos. A personal project by Petr Shovoldaev.">
+<meta property="og:title" content="PlaceSignal — customer experience intelligence">
+<meta property="og:description" content="Ratings and reviews on a map, what drives them, and the evidence behind every number. Watch the 3-minute walkthrough.">
+<meta property="og:image" content="videos/posters/placesignal-overview.jpg">
+<style>
+  :root { --bg:#eef1f3; --paper:#fff; --ink:#1c2228; --slate:#56606b; --mist:#8a939c; --rule:#dce1e5; --signal:#3443c9; --amber:#8a5300; --amberbg:#fdf5e9; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#14181c; --paper:#1d2329; --ink:#eef1f3; --slate:#b3bcc4; --mist:#8a939c; --rule:#2c343c; --signal:#8f9bff; --amber:#f2c27b; --amberbg:#2e2618; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:1100px; margin:0 auto; padding:40px 16px 64px; }
+  .eyebrow { color:var(--signal); font-weight:600; font-size:14px; margin:0; }
+  h1 { font-size:clamp(32px, 6vw, 52px); line-height:1.04; letter-spacing:-0.02em; margin:8px 0 12px; max-width:18ch; }
+  .lead { color:var(--slate); font-size:18px; max-width:62ch; margin:0; }
+  .by { color:var(--slate); font-size:14px; margin-top:14px; }
+  .by a { color:var(--signal); text-decoration:none; }
+  .note { display:inline-block; margin-top:16px; background:var(--amberbg); color:var(--amber); border-radius:999px; padding:6px 14px; font-size:14px; }
+  .hero { margin-top:28px; background:var(--paper); border-radius:20px; padding:10px; box-shadow:0 0 0 1px var(--rule), 0 12px 40px rgb(20 25 31 / .08); }
+  video { width:100%; display:block; border-radius:14px; background:#000; aspect-ratio:16/9; }
+  .hero p { margin:10px 8px 4px; color:var(--slate); font-size:14px; }
+  h2 { font-size:24px; margin:48px 0 6px; letter-spacing:-0.01em; }
+  .sub { color:var(--slate); margin:0 0 18px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); }
+  .card { background:var(--paper); border-radius:16px; padding:8px 8px 14px; box-shadow:0 0 0 1px var(--rule); }
+  .card video { border-radius:10px; }
+  .card h3 { font-size:16px; margin:12px 8px 2px; }
+  .card p { font-size:14px; color:var(--slate); margin:0 8px; }
+  .links { margin-top:48px; display:flex; flex-wrap:wrap; gap:12px; }
+  .btn { display:inline-flex; align-items:center; height:44px; padding:0 18px; border-radius:999px; text-decoration:none; font-weight:600; font-size:15px; }
+  .primary { background:var(--ink); color:var(--bg); }
+  .ghost { box-shadow:inset 0 0 0 1px var(--rule); color:var(--ink); background:var(--paper); }
+  footer { margin-top:40px; color:var(--mist); font-size:13px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="eyebrow">PlaceSignal</p>
+  <h1>Where customers are happy, where they aren't, and why.</h1>
+  <p class="lead">Ratings and reviews on a map, the issues that drive them found automatically, and the reviews behind every number. Built end to end to show how I take a business question from raw customer feedback to an answer a manager can act on.</p>
+  <p class="by">Petr Shovoldaev · 12+ years in consumer and market insights · Paris · <a href="https://www.linkedin.com/in/pshovoldaev/">LinkedIn</a></p>
+  <span class="note">Demo videos use made-up brands and reviews, labelled as such in the app.</span>
+
+  <section class="hero" aria-label="Walkthrough">
+    <video controls preload="metadata" playsinline poster="videos/posters/placesignal-overview.jpg">
+      <source src="videos/placesignal-overview.mp4" type="video/mp4">
+    </video>
+    <p>The walkthrough (2:48): one industry in depth, a quick tour of others, real places in Paris from open data, and the report.</p>
+  </section>
+
+  <h2>One video per industry</h2>
+  <p class="sub">Same app, same method, a different story in each. Under two minutes each.</p>
+  <div class="grid" id="grid"></div>
+
+  <div class="links">
+    <a class="btn primary" href="https://www.linkedin.com/in/pshovoldaev/">Let's talk</a>
+    <a class="btn ghost" href="https://github.com/PandasAndChill/placesignal-showcase">How it works (screenshots and method)</a>
+  </div>
+  <footer>A personal project, not affiliated with any employer; no employer data was used. No ads, no tracking.</footer>
+</main>
+<script>
+  const V = [
+    ['restaurants', 'Casual dining', 'Price and portions cost the most stars; one burger chain\'s complaints jumped after its price rise.'],
+    ['fast_food', 'Fast food', 'Self-order kiosks: faster queues, but more wrong orders. A trade-off, found on its own.'],
+    ['fine_dining', 'Fine dining', 'Cuisine complaints jumped at one group after its head chef left; a price rise at another.'],
+    ['hotels', 'Hotels', 'A renovation that cost guests their sleep, then paid off.'],
+    ['automotive', 'Car dealerships', 'Poor updates and follow-up cost the most stars; a delivery problem at one brand.'],
+    ['supermarkets', 'Supermarkets', 'Self-checkout: shorter queues, angrier machines; a supply problem that came and went.'],
+    ['fashion', 'Fashion boutiques', 'A stricter returns policy and what it cost; click & collect before and after the fix.'],
+    ['gyms', 'Gyms', 'Cancelling a membership is the worst experience; new contract terms made it worse.'],
+    ['beauty', 'Beauty salons', 'Running late costs the most stars; pressure to buy jumped after new sales targets.'],
+    ['barbers', 'Barbers', 'Haircut quality costs the most stars; online booking ended the walk-in queues.'],
+  ]
+  const grid = document.getElementById('grid')
+  for (const [id, title, text] of V) {
+    const card = document.createElement('article')
+    card.className = 'card'
+    card.innerHTML = `<video controls preload="none" playsinline poster="videos/posters/industry-${id}.jpg"><source src="videos/industry-${id}.mp4" type="video/mp4"></video><h3></h3><p></p>`
+    card.querySelector('h3').textContent = title
+    card.querySelector('p').textContent = text
+    grid.append(card)
+  }
+  // one video at a time
+  document.addEventListener('play', (e) => { document.querySelectorAll('video').forEach((v) => { if (v !== e.target) v.pause() }) }, true)
+</script>
+</body>
+</html>

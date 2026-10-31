@@ -8,9 +8,10 @@ a manager can act on.
 
 *Petr Shovoldaev · 12+ years in consumer and market insights · Paris · [LinkedIn](https://www.linkedin.com/in/pshovoldaev/)*
 
-[![Watch the 3-minute walkthrough](videos/posters/placesignal-overview.jpg)](videos/placesignal-overview.mp4)
+[![Watch the 3-minute walkthrough](videos/posters/placesignal-overview.jpg)](https://pandasandchill.github.io/placesignal-showcase/)
 
-▶ **[Watch the walkthrough (2:48)](videos/placesignal-overview.mp4)**: gyms in depth, then hotels, fast food,
+▶ **[Watch the videos in your browser](https://pandasandchill.github.io/placesignal-showcase/)** (no download, no ads), or the
+[walkthrough file (2:48)](videos/placesignal-overview.mp4): gyms in depth, then hotels, fast food,
 fashion and 14,500 real Paris restaurants.
 
 ---
