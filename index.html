@@ -19,6 +19,7 @@
   .lead { color:var(--slate); font-size:18px; max-width:62ch; margin:0; }
   .by { color:var(--slate); font-size:14px; margin-top:14px; }
   .by a { color:var(--signal); text-decoration:none; }
+  .cta { display:flex; flex-wrap:wrap; gap:12px; margin-top:22px; }
   .note { display:inline-block; margin-top:16px; background:var(--amberbg); color:var(--amber); border-radius:999px; padding:6px 14px; font-size:14px; }
   .hero { margin-top:28px; background:var(--paper); border-radius:20px; padding:10px; box-shadow:0 0 0 1px var(--rule), 0 12px 40px rgb(20 25 31 / .08); }
   video { width:100%; display:block; border-radius:14px; background:#000; aspect-ratio:16/9; }
@@ -43,13 +44,17 @@
   <h1>Where customers are happy, where they aren't, and why.</h1>
   <p class="lead">Ratings and reviews on a map, the issues that drive them found automatically, and the reviews behind every number. Built end to end to show how I take a business question from raw customer feedback to an answer a manager can act on.</p>
   <p class="by">Petr Shovoldaev · 12+ years in consumer and market insights · Paris · <a href="https://www.linkedin.com/in/pshovoldaev/">LinkedIn</a></p>
-  <span class="note">Demo videos use made-up brands and reviews, labelled as such in the app.</span>
+  <div class="cta">
+    <a class="btn primary" href="app/">Try the app live</a>
+    <a class="btn ghost" href="#watch">Watch the 3-minute video</a>
+  </div>
+  <span class="note">Demo mode uses made-up brands and reviews, labelled as such everywhere. Works best on a laptop.</span>
 
-  <section class="hero" aria-label="Walkthrough">
+  <section class="hero" aria-label="Walkthrough" id="watch">
     <video controls preload="metadata" playsinline poster="videos/posters/placesignal-overview.jpg">
       <source src="videos/placesignal-overview.mp4" type="video/mp4">
     </video>
-    <p>The walkthrough (2:48): one industry in depth, a quick tour of others, real places in Paris from open data, and the report.</p>
+    <p>The walkthrough: casual dining from the headline numbers to a single restaurant, a quick tour of other industries, and real places in Paris.</p>
   </section>
 
   <h2>One video per industry</h2>
@@ -57,7 +62,8 @@
   <div class="grid" id="grid"></div>
 
   <div class="links">
-    <a class="btn primary" href="https://www.linkedin.com/in/pshovoldaev/">Let's talk</a>
+    <a class="btn primary" href="app/">Try the app live</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/pshovoldaev/">Let's talk</a>
     <a class="btn ghost" href="https://github.com/PandasAndChill/placesignal-showcase">How it works (screenshots and method)</a>
   </div>
   <footer>A personal project, not affiliated with any employer; no employer data was used. No ads, no tracking.</footer>

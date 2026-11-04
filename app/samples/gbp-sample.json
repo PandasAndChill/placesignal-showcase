@@ -1,0 +1,1387 @@
+{
+ "format": "placesignal-gbp-bundle/1",
+ "note": "Synthetic sample in Google Business Profile API shapes (Business Information location + reviews.list items).",
+ "locations": [
+  {
+   "location": {
+    "name": "locations/0",
+    "title": "Garage Horizon Paris (sample)",
+    "latlng": {
+     "latitude": 48.83069,
+     "longitude": 2.30119
+    },
+    "storefrontAddress": {
+     "locality": "Paris",
+     "administrativeArea": "Île-de-France",
+     "regionCode": "FR"
+    }
+   },
+   "reviews": [
+    {
+     "name": "accounts/0/locations/0/reviews/r83",
+     "reviewId": "r83",
+     "reviewer": {
+      "displayName": "Sample reviewer 83",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2023-04-09T10:00:00Z",
+     "updateTime": "2023-04-09T10:00:00Z",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2023-04-09T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r84",
+     "reviewId": "r84",
+     "reviewer": {
+      "displayName": "Sample reviewer 84",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-06-08T10:00:00Z",
+     "updateTime": "2023-06-08T10:00:00Z",
+     "comment": "Ils ont rappelé le jour même comme promis, et les mécaniciens ont vite trouvé le problème et l'ont bien réparé."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r85",
+     "reviewId": "r85",
+     "reviewer": {
+      "displayName": "Sample reviewer 85",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-07-27T10:00:00Z",
+     "updateTime": "2023-07-27T10:00:00Z",
+     "comment": "Personne n'a cherché à nous forcer la main, et on a pu faire un vrai essai routier."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r86",
+     "reviewId": "r86",
+     "reviewer": {
+      "displayName": "Sample reviewer 86",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2023-09-06T10:00:00Z",
+     "updateTime": "2023-09-06T10:00:00Z",
+     "comment": "L'essai a été facile à organiser et assez long, mais la reprise proposée était ridiculement basse."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r87",
+     "reviewId": "r87",
+     "reviewer": {
+      "displayName": "Sample reviewer 87",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-09-13T10:00:00Z",
+     "updateTime": "2023-09-13T10:00:00Z",
+     "comment": "L'offre était correcte et la reprise raisonnable, et on nous a clairement expliqué chaque finition.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2023-09-13T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r88",
+     "reviewId": "r88",
+     "reviewer": {
+      "displayName": "Sample reviewer 88",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-11-01T10:00:00Z",
+     "updateTime": "2023-11-01T10:00:00Z",
+     "comment": "Très bonne expérience. Ils m'ont tenu informé par SMS à chaque étape, et la réparation a été couverte par la garantie sans difficulté."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r89",
+     "reviewId": "r89",
+     "reviewer": {
+      "displayName": "Sample reviewer 89",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2023-11-25T10:00:00Z",
+     "updateTime": "2023-11-25T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r90",
+     "reviewId": "r90",
+     "reviewer": {
+      "displayName": "Sample reviewer 90",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-12-15T10:00:00Z",
+     "updateTime": "2023-12-15T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r91",
+     "reviewId": "r91",
+     "reviewer": {
+      "displayName": "Sample reviewer 91",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-12-29T10:00:00Z",
+     "updateTime": "2023-12-29T10:00:00Z",
+     "comment": "Personne n'a cherché à nous forcer la main, et on a pu faire un vrai essai routier.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2023-12-29T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r92",
+     "reviewId": "r92",
+     "reviewer": {
+      "displayName": "Sample reviewer 92",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-01-11T10:00:00Z",
+     "updateTime": "2024-01-11T10:00:00Z",
+     "comment": "L'entretien a été rapide, j'ai attendu moins d'une heure, et ils ont rappelé le jour même comme promis."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r93",
+     "reviewId": "r93",
+     "reviewer": {
+      "displayName": "Sample reviewer 93",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2024-02-26T10:00:00Z",
+     "updateTime": "2024-02-26T10:00:00Z",
+     "comment": "Aucune pression pour acheter, mais des frais supplémentaires sont apparus sur la facture finale."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r94",
+     "reviewId": "r94",
+     "reviewer": {
+      "displayName": "Sample reviewer 94",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-03-22T10:00:00Z",
+     "updateTime": "2024-03-22T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r95",
+     "reviewId": "r95",
+     "reviewer": {
+      "displayName": "Sample reviewer 95",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-03-23T10:00:00Z",
+     "updateTime": "2024-03-23T10:00:00Z",
+     "comment": "Très bonne expérience. L'entretien a été rapide, j'ai attendu moins d'une heure.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-03-23T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r96",
+     "reviewId": "r96",
+     "reviewer": {
+      "displayName": "Sample reviewer 96",
+      "isAnonymous": false
+     },
+     "starRating": "TWO",
+     "createTime": "2024-04-27T10:00:00Z",
+     "updateTime": "2024-04-27T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r97",
+     "reviewId": "r97",
+     "reviewer": {
+      "displayName": "Sample reviewer 97",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-04-29T10:00:00Z",
+     "updateTime": "2024-04-29T10:00:00Z",
+     "comment": "Ils m'ont tenu informé par SMS à chaque étape, et toute l'équipe s'est montrée aimable et professionnelle."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r98",
+     "reviewId": "r98",
+     "reviewer": {
+      "displayName": "Sample reviewer 98",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-05-03T10:00:00Z",
+     "updateTime": "2024-05-03T10:00:00Z",
+     "comment": "Très satisfait. Les tarifs de main-d'œuvre sont raisonnables pour un concessionnaire."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r99",
+     "reviewId": "r99",
+     "reviewer": {
+      "displayName": "Sample reviewer 99",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-05-15T10:00:00Z",
+     "updateTime": "2024-05-15T10:00:00Z",
+     "comment": "Le personnel a été accueillant et vraiment serviable.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-05-15T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r100",
+     "reviewId": "r100",
+     "reviewer": {
+      "displayName": "Sample reviewer 100",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-05-19T10:00:00Z",
+     "updateTime": "2024-05-19T10:00:00Z",
+     "comment": "L'essai a été facile à organiser et assez long, et la remise des clés a été soignée, avec toutes les explications."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r101",
+     "reviewId": "r101",
+     "reviewer": {
+      "displayName": "Sample reviewer 101",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-06-06T10:00:00Z",
+     "updateTime": "2024-06-06T10:00:00Z",
+     "comment": "Le prix était transparent, sans frais cachés."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r102",
+     "reviewId": "r102",
+     "reviewer": {
+      "displayName": "Sample reviewer 102",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-06-13T10:00:00Z",
+     "updateTime": "2024-06-13T10:00:00Z",
+     "comment": "La voiture était prête plus tôt que prévu."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r103",
+     "reviewId": "r103",
+     "reviewer": {
+      "displayName": "Sample reviewer 103",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-07-18T10:00:00Z",
+     "updateTime": "2024-07-18T10:00:00Z",
+     "comment": "Très bonne expérience. Le vendeur connaissait parfaitement les modèles et nous a bien conseillés, et toute l'équipe s'est montrée aimable et professionnelle, et ils m'ont tenu informé par SMS à chaque étape.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-07-18T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r104",
+     "reviewId": "r104",
+     "reviewer": {
+      "displayName": "Sample reviewer 104",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-07-23T10:00:00Z",
+     "updateTime": "2024-07-23T10:00:00Z",
+     "comment": "Very satisfied. They called back the same day as promised."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r105",
+     "reviewId": "r105",
+     "reviewer": {
+      "displayName": "Sample reviewer 105",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-08-17T10:00:00Z",
+     "updateTime": "2024-08-17T10:00:00Z",
+     "comment": "Ils m'ont tenu informé par SMS à chaque étape, et la prise en charge sous garantie s'est faite sans discussion."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r106",
+     "reviewId": "r106",
+     "reviewer": {
+      "displayName": "Sample reviewer 106",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-09-10T10:00:00Z",
+     "updateTime": "2024-09-10T10:00:00Z",
+     "comment": "Ils ont rappelé le jour même comme promis, et on nous a clairement expliqué chaque finition."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r107",
+     "reviewId": "r107",
+     "reviewer": {
+      "displayName": "Sample reviewer 107",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-09-24T10:00:00Z",
+     "updateTime": "2024-09-24T10:00:00Z",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-09-24T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r108",
+     "reviewId": "r108",
+     "reviewer": {
+      "displayName": "Sample reviewer 108",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-10-12T10:00:00Z",
+     "updateTime": "2024-10-12T10:00:00Z",
+     "comment": "On a pu faire un vrai essai routier."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r109",
+     "reviewId": "r109",
+     "reviewer": {
+      "displayName": "Sample reviewer 109",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-10-14T10:00:00Z",
+     "updateTime": "2024-10-14T10:00:00Z",
+     "comment": "Très bonne expérience. Ils m'ont tenu informé par SMS à chaque étape, et toute l'équipe s'est montrée aimable et professionnelle."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r110",
+     "reviewId": "r110",
+     "reviewer": {
+      "displayName": "Sample reviewer 110",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-10-24T10:00:00Z",
+     "updateTime": "2024-10-24T10:00:00Z",
+     "comment": "La réparation a été couverte par la garantie sans difficulté."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r111",
+     "reviewId": "r111",
+     "reviewer": {
+      "displayName": "Sample reviewer 111",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-10-27T10:00:00Z",
+     "updateTime": "2024-10-27T10:00:00Z",
+     "comment": "Très satisfait. Les tarifs de main-d'œuvre sont raisonnables pour un concessionnaire, et la voiture était prête plus tôt que prévu, et la prise de rendez-vous en ligne était simple et l'horaire respecté.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-10-27T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r112",
+     "reviewId": "r112",
+     "reviewer": {
+      "displayName": "Sample reviewer 112",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-11-18T10:00:00Z",
+     "updateTime": "2024-11-18T10:00:00Z",
+     "comment": "Parfait."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r113",
+     "reviewId": "r113",
+     "reviewer": {
+      "displayName": "Sample reviewer 113",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-11-22T10:00:00Z",
+     "updateTime": "2024-11-22T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r114",
+     "reviewId": "r114",
+     "reviewer": {
+      "displayName": "Sample reviewer 114",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-01-02T10:00:00Z",
+     "updateTime": "2025-01-02T10:00:00Z",
+     "comment": "Ils m'ont tenu informé par SMS à chaque étape, et la voiture était prête plus tôt que prévu, et les tarifs de main-d'œuvre sont raisonnables pour un concessionnaire."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r115",
+     "reviewId": "r115",
+     "reviewer": {
+      "displayName": "Sample reviewer 115",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2025-02-25T10:00:00Z",
+     "updateTime": "2025-02-25T10:00:00Z",
+     "comment": "Parfait.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2025-02-25T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r116",
+     "reviewId": "r116",
+     "reviewer": {
+      "displayName": "Sample reviewer 116",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-02-25T10:00:00Z",
+     "updateTime": "2025-02-25T10:00:00Z",
+     "comment": "Great experience. The mechanics found the problem quickly and repaired it properly, and the warranty claim was accepted without any discussion."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r117",
+     "reviewId": "r117",
+     "reviewer": {
+      "displayName": "Sample reviewer 117",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-03-03T10:00:00Z",
+     "updateTime": "2025-03-03T10:00:00Z",
+     "comment": "Très bonne expérience. Ils m'ont tenu informé par SMS à chaque étape."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r118",
+     "reviewId": "r118",
+     "reviewer": {
+      "displayName": "Sample reviewer 118",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2025-03-13T10:00:00Z",
+     "updateTime": "2025-03-13T10:00:00Z",
+     "comment": "On nous a clairement expliqué chaque finition."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r119",
+     "reviewId": "r119",
+     "reviewer": {
+      "displayName": "Sample reviewer 119",
+      "isAnonymous": false
+     },
+     "starRating": "TWO",
+     "createTime": "2025-04-24T10:00:00Z",
+     "updateTime": "2025-04-24T10:00:00Z",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2025-04-24T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r120",
+     "reviewId": "r120",
+     "reviewer": {
+      "displayName": "Sample reviewer 120",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-05-18T10:00:00Z",
+     "updateTime": "2025-05-18T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r121",
+     "reviewId": "r121",
+     "reviewer": {
+      "displayName": "Sample reviewer 121",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-07-22T10:00:00Z",
+     "updateTime": "2025-07-22T10:00:00Z",
+     "comment": "Personne n'a cherché à nous forcer la main, et l'offre était correcte et la reprise raisonnable."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r122",
+     "reviewId": "r122",
+     "reviewer": {
+      "displayName": "Sample reviewer 122",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-07-28T10:00:00Z",
+     "updateTime": "2025-07-28T10:00:00Z",
+     "comment": "Très satisfait. Le personnel a été accueillant et vraiment serviable."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r123",
+     "reviewId": "r123",
+     "reviewer": {
+      "displayName": "Sample reviewer 123",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2025-09-18T10:00:00Z",
+     "updateTime": "2025-09-18T10:00:00Z",
+     "comment": "The staff were friendly and genuinely helpful.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2025-09-18T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r124",
+     "reviewId": "r124",
+     "reviewer": {
+      "displayName": "Sample reviewer 124",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-09-23T10:00:00Z",
+     "updateTime": "2025-09-23T10:00:00Z",
+     "comment": "Très bonne expérience. La prise en charge sous garantie s'est faite sans discussion, et ils ont rappelé le jour même comme promis."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r125",
+     "reviewId": "r125",
+     "reviewer": {
+      "displayName": "Sample reviewer 125",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-10-29T10:00:00Z",
+     "updateTime": "2025-10-29T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r126",
+     "reviewId": "r126",
+     "reviewer": {
+      "displayName": "Sample reviewer 126",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-11-27T10:00:00Z",
+     "updateTime": "2025-11-27T10:00:00Z",
+     "comment": "Ils ont rappelé le jour même comme promis."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r127",
+     "reviewId": "r127",
+     "reviewer": {
+      "displayName": "Sample reviewer 127",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-01-15T10:00:00Z",
+     "updateTime": "2026-01-15T10:00:00Z",
+     "comment": "Je recommande cette concession. On nous a clairement expliqué chaque finition.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2026-01-15T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r128",
+     "reviewId": "r128",
+     "reviewer": {
+      "displayName": "Sample reviewer 128",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-01-26T10:00:00Z",
+     "updateTime": "2026-01-26T10:00:00Z",
+     "comment": "Avis mitigé. On a pu faire un vrai essai routier, mais personne ne m'a jamais rappelé malgré 4 messages."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r129",
+     "reviewId": "r129",
+     "reviewer": {
+      "displayName": "Sample reviewer 129",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-02-18T10:00:00Z",
+     "updateTime": "2026-02-18T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r130",
+     "reviewId": "r130",
+     "reviewer": {
+      "displayName": "Sample reviewer 130",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-03-05T10:00:00Z",
+     "updateTime": "2026-03-05T10:00:00Z",
+     "comment": "Très bonne expérience. Ils ont rappelé le jour même comme promis, et j'ai obtenu un rendez-vous d'entretien dans la semaine."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r131",
+     "reviewId": "r131",
+     "reviewer": {
+      "displayName": "Sample reviewer 131",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-03-30T10:00:00Z",
+     "updateTime": "2026-03-30T10:00:00Z",
+     "comment": "Très satisfait. On a pu faire un vrai essai routier.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2026-03-30T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r132",
+     "reviewId": "r132",
+     "reviewer": {
+      "displayName": "Sample reviewer 132",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-04-17T10:00:00Z",
+     "updateTime": "2026-04-17T10:00:00Z",
+     "comment": "Je recommande cette concession. Ils m'ont tenu informé par SMS à chaque étape."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r133",
+     "reviewId": "r133",
+     "reviewer": {
+      "displayName": "Sample reviewer 133",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-05-15T10:00:00Z",
+     "updateTime": "2026-05-15T10:00:00Z",
+     "comment": "Parfait."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r134",
+     "reviewId": "r134",
+     "reviewer": {
+      "displayName": "Sample reviewer 134",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-06-09T10:00:00Z",
+     "updateTime": "2026-06-09T10:00:00Z",
+     "comment": "Très satisfait. Ils ont rappelé le jour même comme promis."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r135",
+     "reviewId": "r135",
+     "reviewer": {
+      "displayName": "Sample reviewer 135",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-06-15T10:00:00Z",
+     "updateTime": "2026-06-15T10:00:00Z",
+     "comment": "Personne n'a cherché à nous forcer la main, et ils m'ont tenu informé par SMS à chaque étape.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2026-06-15T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r136",
+     "reviewId": "r136",
+     "reviewer": {
+      "displayName": "Sample reviewer 136",
+      "isAnonymous": false
+     },
+     "starRating": "THREE",
+     "createTime": "2026-07-31T10:00:00Z",
+     "updateTime": "2026-07-31T10:00:00Z",
+     "comment": "Service moyen."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r137",
+     "reviewId": "r137",
+     "reviewer": {
+      "displayName": "Sample reviewer 137",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-08-04T10:00:00Z",
+     "updateTime": "2026-08-04T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r138",
+     "reviewId": "r138",
+     "reviewer": {
+      "displayName": "Sample reviewer 138",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-08-12T10:00:00Z",
+     "updateTime": "2026-08-12T10:00:00Z",
+     "comment": "Toute l'équipe s'est montrée aimable et professionnelle, et la prise en charge sous garantie s'est faite sans discussion."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r139",
+     "reviewId": "r139",
+     "reviewer": {
+      "displayName": "Sample reviewer 139",
+      "isAnonymous": false
+     },
+     "starRating": "THREE",
+     "createTime": "2026-09-14T10:00:00Z",
+     "updateTime": "2026-09-14T10:00:00Z",
+     "comment": "La voiture est restée 3 jours à l'atelier pour un simple entretien, mais la prise en charge sous garantie s'est faite sans discussion.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2026-09-14T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r140",
+     "reviewId": "r140",
+     "reviewer": {
+      "displayName": "Sample reviewer 140",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-18T10:00:00Z",
+     "updateTime": "2026-09-18T10:00:00Z",
+     "comment": "Le dossier de financement a été rapide et bien expliqué."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r141",
+     "reviewId": "r141",
+     "reviewer": {
+      "displayName": "Sample reviewer 141",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-19T10:00:00Z",
+     "updateTime": "2026-09-19T10:00:00Z",
+     "comment": "Très satisfait. Le dossier de financement a été rapide et bien expliqué."
+    },
+    {
+     "name": "accounts/0/locations/0/reviews/r142",
+     "reviewId": "r142",
+     "reviewer": {
+      "displayName": "Sample reviewer 142",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-28T10:00:00Z",
+     "updateTime": "2026-09-28T10:00:00Z",
+     "comment": "Je recommande cette concession. Le prix était transparent, sans frais cachés, et la remise des clés a été soignée, avec toutes les explications, et l'essai a été facile à organiser et assez long."
+    }
+   ]
+  },
+  {
+   "location": {
+    "name": "locations/1",
+    "title": "Autos du Parc Nice (sample)",
+    "latlng": {
+     "latitude": 43.74921,
+     "longitude": 7.22068
+    },
+    "storefrontAddress": {
+     "locality": "Nice",
+     "administrativeArea": "Provence-Alpes-Côte d'Azur",
+     "regionCode": "FR"
+    }
+   },
+   "reviews": [
+    {
+     "name": "accounts/0/locations/1/reviews/r371",
+     "reviewId": "r371",
+     "reviewer": {
+      "displayName": "Sample reviewer 371",
+      "isAnonymous": false
+     },
+     "starRating": "TWO",
+     "createTime": "2021-03-10T10:00:00Z",
+     "updateTime": "2021-03-10T10:00:00Z",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2021-03-10T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r372",
+     "reviewId": "r372",
+     "reviewer": {
+      "displayName": "Sample reviewer 372",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2021-09-25T10:00:00Z",
+     "updateTime": "2021-09-25T10:00:00Z",
+     "comment": "Rien à redire, merci."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r373",
+     "reviewId": "r373",
+     "reviewer": {
+      "displayName": "Sample reviewer 373",
+      "isAnonymous": false
+     },
+     "starRating": "TWO",
+     "createTime": "2022-04-12T10:00:00Z",
+     "updateTime": "2022-04-12T10:00:00Z",
+     "comment": "Avis mitigé. J'ai obtenu un rendez-vous d'entretien dans la semaine, mais la facture était bien plus élevée que le devis."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r374",
+     "reviewId": "r374",
+     "reviewer": {
+      "displayName": "Sample reviewer 374",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2022-04-26T10:00:00Z",
+     "updateTime": "2022-04-26T10:00:00Z",
+     "comment": "Le vendeur connaissait parfaitement les modèles et nous a bien conseillés."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r375",
+     "reviewId": "r375",
+     "reviewer": {
+      "displayName": "Sample reviewer 375",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2022-07-17T10:00:00Z",
+     "updateTime": "2022-07-17T10:00:00Z",
+     "comment": "L'entretien a été rapide, j'ai attendu moins d'une heure.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2022-07-17T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r376",
+     "reviewId": "r376",
+     "reviewer": {
+      "displayName": "Sample reviewer 376",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-03-23T10:00:00Z",
+     "updateTime": "2023-03-23T10:00:00Z",
+     "comment": "Je recommande cette concession. La réparation a été couverte par la garantie sans difficulté, et l'entretien a coûté exactement le prix du devis."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r377",
+     "reviewId": "r377",
+     "reviewer": {
+      "displayName": "Sample reviewer 377",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-03-29T10:00:00Z",
+     "updateTime": "2023-03-29T10:00:00Z",
+     "comment": "Je recommande cette concession. Le personnel a été accueillant et vraiment serviable, et on a pu faire un vrai essai routier."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r378",
+     "reviewId": "r378",
+     "reviewer": {
+      "displayName": "Sample reviewer 378",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-09-07T10:00:00Z",
+     "updateTime": "2023-09-07T10:00:00Z",
+     "comment": "Très bonne expérience. La prise en charge sous garantie s'est faite sans discussion, et l'entretien a été rapide, j'ai attendu moins d'une heure."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r379",
+     "reviewId": "r379",
+     "reviewer": {
+      "displayName": "Sample reviewer 379",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2024-06-14T10:00:00Z",
+     "updateTime": "2024-06-14T10:00:00Z",
+     "comment": "Le premier rendez-vous disponible était dans 5 semaines, et j'ai attendu trois heures malgré le rendez-vous.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-06-14T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r380",
+     "reviewId": "r380",
+     "reviewer": {
+      "displayName": "Sample reviewer 380",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-06-15T10:00:00Z",
+     "updateTime": "2024-06-15T10:00:00Z",
+     "comment": "Parfait."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r381",
+     "reviewId": "r381",
+     "reviewer": {
+      "displayName": "Sample reviewer 381",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-12-23T10:00:00Z",
+     "updateTime": "2024-12-23T10:00:00Z",
+     "comment": "Parfait."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r382",
+     "reviewId": "r382",
+     "reviewer": {
+      "displayName": "Sample reviewer 382",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-05-27T10:00:00Z",
+     "updateTime": "2025-05-27T10:00:00Z",
+     "comment": "L'entretien a coûté exactement le prix du devis, et ils ont rappelé le jour même comme promis."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r383",
+     "reviewId": "r383",
+     "reviewer": {
+      "displayName": "Sample reviewer 383",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2025-06-19T10:00:00Z",
+     "updateTime": "2025-06-19T10:00:00Z",
+     "comment": "Du bon et du moins bon. Toute l'équipe s'est montrée aimable et professionnelle, mais la voiture est restée 4 jours à l'atelier pour un simple entretien.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2025-06-19T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r384",
+     "reviewId": "r384",
+     "reviewer": {
+      "displayName": "Sample reviewer 384",
+      "isAnonymous": false
+     },
+     "starRating": "THREE",
+     "createTime": "2025-07-06T10:00:00Z",
+     "updateTime": "2025-07-06T10:00:00Z",
+     "comment": "Du bon et du moins bon. La prise en charge sous garantie s'est faite sans discussion, mais la voiture est restée 6 jours à l'atelier pour un simple entretien."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r385",
+     "reviewId": "r385",
+     "reviewer": {
+      "displayName": "Sample reviewer 385",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2026-01-08T10:00:00Z",
+     "updateTime": "2026-01-08T10:00:00Z",
+     "comment": "Les conseils étaient vagues et parfois faux, et personne ne m'a jamais rappelé malgré 3 messages."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r386",
+     "reviewId": "r386",
+     "reviewer": {
+      "displayName": "Sample reviewer 386",
+      "isAnonymous": false
+     },
+     "starRating": "TWO",
+     "createTime": "2026-03-25T10:00:00Z",
+     "updateTime": "2026-03-25T10:00:00Z",
+     "comment": "À éviter. Mon rendez-vous a été annulé la veille."
+    },
+    {
+     "name": "accounts/0/locations/1/reviews/r387",
+     "reviewId": "r387",
+     "reviewer": {
+      "displayName": "Sample reviewer 387",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2026-06-11T10:00:00Z",
+     "updateTime": "2026-06-11T10:00:00Z",
+     "comment": "Plus jamais.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2026-06-11T12:00:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "location": {
+    "name": "locations/2",
+    "title": "Centre Auto Rivière Le Mans (sample)",
+    "latlng": {
+     "latitude": 47.94869,
+     "longitude": 0.04029
+    },
+    "storefrontAddress": {
+     "locality": "Le Mans",
+     "administrativeArea": "Pays de la Loire",
+     "regionCode": "FR"
+    }
+   },
+   "reviews": [
+    {
+     "name": "accounts/0/locations/2/reviews/r412",
+     "reviewId": "r412",
+     "reviewer": {
+      "displayName": "Sample reviewer 412",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2021-10-10T10:00:00Z",
+     "updateTime": "2021-10-10T10:00:00Z",
+     "comment": "(Translated by Google) [English machine translation omitted] (Original) Parfait.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2021-10-10T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r413",
+     "reviewId": "r413",
+     "reviewer": {
+      "displayName": "Sample reviewer 413",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2021-12-08T10:00:00Z",
+     "updateTime": "2021-12-08T10:00:00Z"
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r414",
+     "reviewId": "r414",
+     "reviewer": {
+      "displayName": "Sample reviewer 414",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2022-01-17T10:00:00Z",
+     "updateTime": "2022-01-17T10:00:00Z",
+     "comment": "Highly recommend this dealer. The offer was fair and the trade-in valuation reasonable."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r415",
+     "reviewId": "r415",
+     "reviewer": {
+      "displayName": "Sample reviewer 415",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2022-02-14T10:00:00Z",
+     "updateTime": "2022-02-14T10:00:00Z",
+     "comment": "La réparation sous garantie a mis 4 semaines à être acceptée, et le voyant était toujours allumé quand j'ai récupéré la voiture."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r416",
+     "reviewId": "r416",
+     "reviewer": {
+      "displayName": "Sample reviewer 416",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2022-09-23T10:00:00Z",
+     "updateTime": "2022-09-23T10:00:00Z",
+     "comment": "La prise en charge sous garantie s'est faite sans discussion.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2022-09-23T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r417",
+     "reviewId": "r417",
+     "reviewer": {
+      "displayName": "Sample reviewer 417",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2022-12-10T10:00:00Z",
+     "updateTime": "2022-12-10T10:00:00Z",
+     "comment": "Ils ont rappelé le jour même comme promis."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r418",
+     "reviewId": "r418",
+     "reviewer": {
+      "displayName": "Sample reviewer 418",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2023-01-29T10:00:00Z",
+     "updateTime": "2023-01-29T10:00:00Z",
+     "comment": "Très bonne expérience. La voiture était prête plus tôt que prévu."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r419",
+     "reviewId": "r419",
+     "reviewer": {
+      "displayName": "Sample reviewer 419",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2023-02-12T10:00:00Z",
+     "updateTime": "2023-02-12T10:00:00Z",
+     "comment": "Ils ont refusé la garantie pour un détail administratif."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r420",
+     "reviewId": "r420",
+     "reviewer": {
+      "displayName": "Sample reviewer 420",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-03-28T10:00:00Z",
+     "updateTime": "2023-03-28T10:00:00Z",
+     "comment": "Très satisfait. On nous a clairement expliqué chaque finition.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2023-03-28T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r421",
+     "reviewId": "r421",
+     "reviewer": {
+      "displayName": "Sample reviewer 421",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-06-07T10:00:00Z",
+     "updateTime": "2023-06-07T10:00:00Z",
+     "comment": "Je recommande cette concession. L'offre était correcte et la reprise raisonnable, et le vendeur connaissait parfaitement les modèles et nous a bien conseillés."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r422",
+     "reviewId": "r422",
+     "reviewer": {
+      "displayName": "Sample reviewer 422",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2023-09-03T10:00:00Z",
+     "updateTime": "2023-09-03T10:00:00Z",
+     "comment": "L'entretien a été rapide, j'ai attendu moins d'une heure."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r423",
+     "reviewId": "r423",
+     "reviewer": {
+      "displayName": "Sample reviewer 423",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-09-28T10:00:00Z",
+     "updateTime": "2023-09-28T10:00:00Z",
+     "comment": "Très bonne expérience. L'essai a été facile à organiser et assez long, et aucune pression pour acheter."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r424",
+     "reviewId": "r424",
+     "reviewer": {
+      "displayName": "Sample reviewer 424",
+      "isAnonymous": false
+     },
+     "starRating": "TWO",
+     "createTime": "2024-04-13T10:00:00Z",
+     "updateTime": "2024-04-13T10:00:00Z",
+     "comment": "À éviter. La voiture est restée 2 jours à l'atelier pour un simple entretien, et j'ai dû les relancer pour avoir la moindre nouvelle.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2024-04-13T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r425",
+     "reviewId": "r425",
+     "reviewer": {
+      "displayName": "Sample reviewer 425",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-07-28T10:00:00Z",
+     "updateTime": "2024-07-28T10:00:00Z",
+     "comment": "Ils m'ont tenu informé par SMS à chaque étape, et la prise de rendez-vous en ligne était simple et l'horaire respecté."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r426",
+     "reviewId": "r426",
+     "reviewer": {
+      "displayName": "Sample reviewer 426",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-08-15T10:00:00Z",
+     "updateTime": "2024-08-15T10:00:00Z",
+     "comment": "Je recommande cette concession. Les tarifs de main-d'œuvre sont raisonnables pour un concessionnaire."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r427",
+     "reviewId": "r427",
+     "reviewer": {
+      "displayName": "Sample reviewer 427",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-10-20T10:00:00Z",
+     "updateTime": "2024-10-20T10:00:00Z",
+     "comment": "Très satisfait. On nous a clairement expliqué chaque finition."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r428",
+     "reviewId": "r428",
+     "reviewer": {
+      "displayName": "Sample reviewer 428",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2025-03-05T10:00:00Z",
+     "updateTime": "2025-03-05T10:00:00Z",
+     "comment": "Je recommande cette concession. Toute l'équipe s'est montrée aimable et professionnelle, et j'ai obtenu un rendez-vous d'entretien dans la semaine, et les mécaniciens ont vite trouvé le problème et l'ont bien réparé.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2025-03-05T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r429",
+     "reviewId": "r429",
+     "reviewer": {
+      "displayName": "Sample reviewer 429",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-05-14T10:00:00Z",
+     "updateTime": "2025-05-14T10:00:00Z",
+     "comment": "Le personnel a été accueillant et vraiment serviable, et la réparation a été couverte par la garantie sans difficulté."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r430",
+     "reviewId": "r430",
+     "reviewer": {
+      "displayName": "Sample reviewer 430",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2025-05-21T10:00:00Z",
+     "updateTime": "2025-05-21T10:00:00Z",
+     "comment": "Décevant. Mon rendez-vous a été annulé la veille, et personne ne m'a jamais rappelé malgré 4 messages."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r431",
+     "reviewId": "r431",
+     "reviewer": {
+      "displayName": "Sample reviewer 431",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-06-17T10:00:00Z",
+     "updateTime": "2025-06-17T10:00:00Z",
+     "comment": "Je recommande cette concession. Ils m'ont tenu informé par SMS à chaque étape."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r432",
+     "reviewId": "r432",
+     "reviewer": {
+      "displayName": "Sample reviewer 432",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2025-12-23T10:00:00Z",
+     "updateTime": "2025-12-23T10:00:00Z",
+     "comment": "J'ai attendu trois heures malgré le rendez-vous, et mon rendez-vous a été annulé la veille.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2025-12-23T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r433",
+     "reviewId": "r433",
+     "reviewer": {
+      "displayName": "Sample reviewer 433",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2026-01-16T10:00:00Z",
+     "updateTime": "2026-01-16T10:00:00Z",
+     "comment": "Du bon et du moins bon. La remise des clés a été soignée, avec toutes les explications, mais des frais supplémentaires sont apparus sur la facture finale."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r434",
+     "reviewId": "r434",
+     "reviewer": {
+      "displayName": "Sample reviewer 434",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-02-06T10:00:00Z",
+     "updateTime": "2026-02-06T10:00:00Z",
+     "comment": "Je recommande cette concession. On nous a clairement expliqué chaque finition, et la remise des clés a été soignée, avec toutes les explications."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r435",
+     "reviewId": "r435",
+     "reviewer": {
+      "displayName": "Sample reviewer 435",
+      "isAnonymous": false
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-04-21T10:00:00Z",
+     "updateTime": "2026-04-21T10:00:00Z",
+     "comment": "Très bonne expérience. On a pu faire un vrai essai routier, et le personnel a été accueillant et vraiment serviable."
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r436",
+     "reviewId": "r436",
+     "reviewer": {
+      "displayName": "Sample reviewer 436",
+      "isAnonymous": false
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-05-11T10:00:00Z",
+     "updateTime": "2026-05-11T10:00:00Z",
+     "comment": "La prise en charge sous garantie s'est faite sans discussion, et la prise de rendez-vous en ligne était simple et l'horaire respecté, et l'entretien a été rapide, j'ai attendu moins d'une heure.",
+     "reviewReply": {
+      "comment": "Merci pour votre retour.",
+      "updateTime": "2026-05-11T12:00:00Z"
+     }
+    },
+    {
+     "name": "accounts/0/locations/2/reviews/r437",
+     "reviewId": "r437",
+     "reviewer": {
+      "displayName": "Sample reviewer 437",
+      "isAnonymous": false
+     },
+     "starRating": "ONE",
+     "createTime": "2026-09-03T10:00:00Z",
+     "updateTime": "2026-09-03T10:00:00Z",
+     "comment": "Très mauvaise expérience. J'ai dû les relancer pour avoir la moindre nouvelle, et la voiture est restée 2 jours à l'atelier pour un simple entretien, et le premier rendez-vous disponible était dans 6 semaines."
+    }
+   ]
+  }
+ ]
+}

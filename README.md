@@ -10,9 +10,9 @@ a manager can act on.
 
 [![Watch the 3-minute walkthrough](videos/posters/placesignal-overview.jpg)](https://pandasandchill.github.io/placesignal-showcase/)
 
-▶ **[Watch the videos in your browser](https://pandasandchill.github.io/placesignal-showcase/)** (no download, no ads), or the
-[walkthrough file (2:48)](videos/placesignal-overview.mp4): gyms in depth, then hotels, fast food,
-fashion and 14,500 real Paris restaurants.
+▶ **[Try the app live](https://pandasandchill.github.io/placesignal-showcase/app/)** (best on a laptop) ·
+**[Watch the videos](https://pandasandchill.github.io/placesignal-showcase/)** (no download, no ads).
+The 3-minute walkthrough follows casual dining from the headline numbers to a single restaurant, then real places in Paris.
 
 ---
 
@@ -25,20 +25,32 @@ doesn't say what to fix. PlaceSignal answers the questions an insights or operat
 |---|---|
 | What costs us the most stars? | Each issue ranked by how often it comes up × how many stars it costs, and what fixing it is worth |
 | What changed, and when? | Complaints that jumped after a specific month, found in the data with no date given to it |
-| Who already does it better? | The brand with the fewest complaints on the same issue, over the same period: a fix to copy |
-| Is it everywhere or just here? | Countries or regions that fall behind the rest of the brand, with a significance test |
-| Is it real or just noise? | Every rate has a sample size and a confidence interval; small samples are flagged, not hidden |
+| Who already does it better? | Every brand side by side, and where each one is criticised more or less than its competitors |
+| Is it everywhere or just here? | Countries, areas and single places compared with the rest, with a significance test |
+| Is it real or just noise? | Every change against the period before is tested; colour means real, grey means noise |
 | Show me. | One click from any number to the reviews behind it, in five languages, with the key phrases highlighted |
 
-It ends with a printable report: the findings, how they were worked out, and what the data can and can't say.
+## What's in the app
+
+- **An executive summary** ("In short"), the key numbers with their change, and the findings, each with a hover note on
+  exactly how it was found.
+- **A full report in six tabs**: what stands out, every star level and the trend, likes and dislikes in customers' own
+  words, a competitor benchmark, and the best, weakest and fastest-falling places.
+- **Search anything** (⌘K): a place, a brand, a city. A place's page shows how it compares with its peers, what to fix
+  first, and its latest reviews.
+- **Evidence everywhere**: full-text search across reviews, saved findings that become a printable report, CSV export.
+- **Works on a phone**, and every view has its own link.
 
 ## Screenshots
 
 | | |
 |---|---|
-| ![What stands out](screenshots/02-insights-gyms.png) **Insights**: what stands out, found automatically, each with its numbers | ![What drives ratings](screenshots/03-what-drives-ratings.png) **Drivers**: how often an issue comes up vs. how many stars it costs |
-| ![The reviews behind it](screenshots/04-reviews-behind-it.png) **Evidence**: the reviews behind a finding and its timeline | ![Compare](screenshots/05-compare.png) **Compare**: brands side by side, topic by topic |
-| ![Map](screenshots/06-map-hotels.png) **Map**: every location coloured by rating, ranked fairly | ![Real Paris data](screenshots/08-real-paris-open-data.png) **Real data**: 14,500 Paris restaurants from open data |
+| ![What stands out](screenshots/01-what-stands-out.png) **What stands out**: the summary, key numbers with their change, findings | ![How it is found](screenshots/02-how-it-is-found.png) **Method on hover**: how each finding was found, in plain words |
+| ![Dislikes](screenshots/03-dislikes.png) **Dislikes**: what each issue costs, what fixing it is worth, customers' words | ![Benchmark](screenshots/04-benchmark.png) **Benchmark**: brands side by side, strengths and weaknesses |
+| ![One place](screenshots/06-place-profile.png) **One place**: vs peers and the period before, what to fix first | ![The reviews behind it](screenshots/07-reviews.png) **Evidence**: the reviews behind a finding, its timeline, text search |
+| ![Map](screenshots/08-map.png) **Map**: every location by rating; here, the biggest drops first | ![Real Paris data](screenshots/09-real-paris-open-data.png) **Real data**: 14,500 Paris restaurants from open data |
+
+<p align="center"><img src="screenshots/10-phone.png" alt="PlaceSignal on a phone" width="760"></p>
 
 ## One video per industry
 
@@ -47,9 +59,9 @@ Same app, same method, a different story in each. Each runs under two minutes.
 | Industry | What the analysis finds | Video |
 |---|---|---|
 | Car dealerships | Poor updates and follow-up cost the most stars; delivery complaints spiked at one brand from March 2024 | [▶ automotive](videos/industry-automotive.mp4) |
-| Casual dining | Price and portions cost the most stars; one burger chain's complaints jumped after April 2025, and who to learn from | [▶ restaurants](videos/industry-restaurants.mp4) |
+| Casual dining | Price and portions cost the most stars; one burger chain's complaints jumped after its price rise, and who to learn from | [▶ restaurants](videos/industry-restaurants.mp4) |
 | Fast food | Self-order kiosks: faster queues, but more wrong orders. A trade-off, found on its own | [▶ fast food](videos/industry-fast_food.mp4) |
-| Fine dining | Cuisine complaints jumped at one group from June 2025 (its head chef had left); a price rise at another | [▶ fine dining](videos/industry-fine_dining.mp4) |
+| Fine dining | Cuisine complaints jumped at one group after its head chef left; a price rise at another | [▶ fine dining](videos/industry-fine_dining.mp4) |
 | Supermarkets | Self-checkout: shorter queues, angrier machines; a supply problem that came and went | [▶ supermarkets](videos/industry-supermarkets.mp4) |
 | Fashion | A stricter returns policy and what it cost; click & collect, before and after the fix | [▶ fashion](videos/industry-fashion.mp4) |
 | Hotels | A renovation that cost guests their sleep, then paid off | [▶ hotels](videos/industry-hotels.mp4) |
@@ -83,15 +95,16 @@ Same app, same method, a different story in each. Each runs under two minutes.
 
 ## Honest about the data
 
-- **Demo mode** uses made-up brands and generated reviews: 52 brands, 6,400 locations and 260,000 reviews in English,
-  French, German, Spanish and Italian. Real stories were planted in it (a policy change, a launch, a regional problem), so the
+- **Demo mode** uses made-up brands and generated reviews: 53 brands, 6,435 locations and 455,000 reviews in English,
+  French, German, Spanish and Italian. Paris is the showcase city, with busy flagships of several hundred reviews each. Real stories were planted in it (a policy change, a launch, a regional problem), so the
   app can show whether the analysis finds them without being told. It does, and the app shows the answers next to the
   findings. Everything that's made up is labelled as made up, on every screen.
 - **Real data** shows actual places in Paris from open data: 14,500 restaurants from OpenStreetMap, matched to the
   official hygiene inspections (Alim'confiance), plus barbers, hair salons and car dealerships. Open data has no
   ratings, and the app says so instead of inventing them.
-- On my own computer, real data mode can also read a small private snapshot of Google ratings and reviews for live demos.
-  It is never published, and it isn't in this repository or in these videos.
+- On my own computer, a collector built into the app adds real Google ratings and reviews (official API, my own key, free
+  tier), with live progress and filtered erase. That data stays private: it is never published, and it isn't in this
+  repository or in these videos. In a company, the same pipeline would read the business's own feedback as it arrives.
 - Every source declares what it may be used for, and the app enforces it: data that can't be published can't be exported
   or deployed.
 
